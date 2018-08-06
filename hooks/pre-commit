@@ -2,7 +2,9 @@
 #
 # This script checks the files included for commit for inconsistensies and size.
 # To enable, copy this file to the .git/hooks folder of your repository.
-# 
+#
+# This script is a concatenation of Github standard pre-commit.sample and one found at https://stackoverflow.com/questions/39576257/how-to-limit-file-size-on-commit
+#
 
 if git rev-parse --verify HEAD >/dev/null 2>&1
 then
