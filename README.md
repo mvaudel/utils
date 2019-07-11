@@ -14,11 +14,11 @@ After placing [this script](https://github.com/mvaudel/utils/blob/master/hooks/p
 
 - Speed vs. Size
 
-[!](https://github.com/mvaudel/utils/blob/master/docs/dl_speed/speed_size.png)
+![](https://github.com/mvaudel/utils/blob/master/docs/dl_speed/speed_size.png)
 
 - Size
 
-[!](https://github.com/mvaudel/utils/blob/master/docs/dl_speed/size.png)
+![](https://github.com/mvaudel/utils/blob/master/docs/dl_speed/size.png)
 
 
 
