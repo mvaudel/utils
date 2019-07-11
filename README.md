@@ -18,7 +18,7 @@ After placing [this script](https://github.com/mvaudel/utils/blob/master/hooks/p
 
 - Size
 
-![](https://github.com/mvaudel/utils/blob/master/docs/dl_speed/size.png)
+![](https://github.com/mvaudel/utils/blob/master/docs/dl_speed/speed.png)
 
 
 
