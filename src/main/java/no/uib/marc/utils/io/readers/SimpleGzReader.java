@@ -1,4 +1,4 @@
-package no.uib.marc.utils.io;
+package no.uib.marc.utils.io.readers;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -9,13 +9,14 @@ import java.io.InputStreamReader;
 import java.io.Reader;
 import java.util.zip.GZIPInputStream;
 import static no.uib.marc.utils.Utils.encoding;
+import no.uib.marc.utils.io.SimpleFileReader;
 
 /**
  * Simple wrapper for a gz file reader.
  *
  * @author Marc Vaudel
  */
-public class SimpleGzReader implements AutoCloseable {
+public class SimpleGzReader implements SimpleFileReader {
 
     /**
      * The buffered reader.
@@ -44,11 +45,7 @@ public class SimpleGzReader implements AutoCloseable {
         }
     }
 
-    /**
-     * Reads a line of the file.
-     *
-     * @return a line of the file
-     */
+    @Override
     public String readLine() {
 
         try {
